@@ -1,0 +1,28 @@
+{
+  "name": "moodexpress",
+  "version": "1.0.0",
+  "description": "Mood.fm with express routing",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "keywords": [
+    "Spotify",
+    "OpeanWeatherMaps",
+    "API"
+  ],
+  "author": "Christian G. Lowe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2"
+  }
+}
