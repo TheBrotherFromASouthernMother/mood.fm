@@ -1,10 +1,10 @@
 function switchStatement (weatherConditions, response, render) {
   switch(true) {
-    case (weatherConditions === "/Austin"):
+    case (weatherConditions >= 800):
     render.view('Rain.html');
     response.end();
     break;
-    case (weatherConditions === "/Houston"):
+    case (weatherConditions < 800):
     render.view('Snow.html');
     response.end();
     break;
